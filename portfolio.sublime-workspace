@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mn",
+				"min-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"todo",
+				"todoitems"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"Inte",
+				"INTEGER"
+			],
+			[
+				"reques",
+				"requestHandler"
+			],
+			[
+				"push",
+				"pushQuery"
+			],
+			[
+				"recip",
+				"recipientUsername"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12228,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 4756,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Material Theme: Activate theme"
+			],
+			[
+				"activa",
+				"Material Theme: Activate theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gaberoeloffs/Desktop/portfolio"
+	],
+	"file_history":
+	[
+		"/Users/gaberoeloffs/Desktop/portfolio/navbar.css",
+		"/Users/gaberoeloffs/Desktop/portfolio/style.css",
+		"/Users/gaberoeloffs/Desktop/portfolio/index.html",
+		"/Users/gaberoeloffs/Desktop/gabesblog-master/app/views/home.blade.php",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/migrations/20170211222609-create-todo-item.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/models/todo.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/routes/index.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/controllers/todoitems.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/controllers/todos.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/.sequelizerc",
+		"/Users/gaberoeloffs/Desktop/todo-app/app.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/package.json",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/models/index.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/controllers/index.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/config/config.json",
+		"/Users/gaberoeloffs/Desktop/todo-app/server/models/todoitem.js",
+		"/Users/gaberoeloffs/Desktop/todo-app/bin/www.js",
+		"/Users/gaberoeloffs/Desktop/inventory/app.js",
+		"/Users/gaberoeloffs/Desktop/inventory/models/index.js",
+		"/Users/gaberoeloffs/Desktop/inventory/bin/www",
+		"/Users/gaberoeloffs/Desktop/inventory/models/entry.js",
+		"/Users/gaberoeloffs/Desktop/inventory/database.js",
+		"/Users/gaberoeloffs/Desktop/Inventory/app/calc.js",
+		"/Users/gaberoeloffs/Desktop/Inventory/app/index.js",
+		"/Users/gaberoeloffs/Desktop/Inventory/index.js",
+		"/Users/gaberoeloffs/Desktop/Inventory/package.json",
+		"/Users/gaberoeloffs/Desktop/cloud/sendPush.js",
+		"/Users/gaberoeloffs/Downloads/chat-icons/gif-icon.svg",
+		"/Users/gaberoeloffs/Desktop/cloud/cloudCode/cloud/main.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"best-skillls",
+			"\n            ",
+			"skill-title",
+			"chatmunk-text",
+			"station-title",
+			"skill",
+			"gray",
+			"skill",
+			".bg1",
+			"bg1",
+			"p",
+			";\n",
+			"img",
+			"container",
+			";\n",
+			"install package",
+			"images",
+			"../imag",
+			"jumbo",
+			"apps",
+			"CHAT",
+			"style.css",
+			"}\n",
+			"\",\n",
+			"www",
+			"Entry",
+			"x",
+			"inventory",
+			"js",
+			"});"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3568,
+								3568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2708,
+								2708
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3562.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

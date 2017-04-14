@@ -52,6 +52,11 @@ body{
 
 }
 
+.contact{
+
+	font-family: "Fjalla One", sans-serif;
+}
+
 .bg3{
 
 	/*background-image: url('../images/computer.jpg');*/
@@ -418,14 +423,21 @@ hr{
 	color: white;
 }
 
-.station-image{
+.screenshot{
 
 	height: auto;
 	width:80%;
-    margin: 0 auto;
+	margin: 0 auto;
 	margin-top: 70px;
 	margin-bottom: -100px;
 
+}
+
+.zoomly-screenshot{
+
+	
+	margin-top: 80px;
+	margin-bottom: -10px;
 }
 
 /** Zoomly **/
@@ -510,6 +522,8 @@ img{
 	margin-bottom: -300px;
 }
 
+
+
 .no-overflow{
 
 	overflow: hidden;
@@ -522,7 +536,7 @@ img{
 
 .blue{
 
-	color: #559DFF;
+	color: #3399CC;
 }
 
 .down{
@@ -530,3 +544,4 @@ img{
 	color: 	background: rgba(255, 255, 255, .7);
 
 }
+

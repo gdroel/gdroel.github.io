@@ -217,20 +217,26 @@ li{
 
 .jumbotron{
 
-	background: transparent !important;
+	background: red !important;
 	text-align: center;
 	height: 200px;
 
 }
 
-.jumbotron > h1{
+.main-text-holder{
 
-	margin-top: 15%;
+	text-align: center;
+}
+
+h1{
+
+	margin-top: 30vh;
 	font-family: 'Fjalla One';
 	color: black;
 	border-radius: 3px;
 	display: inline-block;
 	padding: 15px;
+	font-size: 60px;
 	background: rgba(255, 255, 255, .7);
 }
 
@@ -435,7 +441,7 @@ hr{
 
 .zoomly-screenshot{
 
-	
+
 	margin-top: 80px;
 	margin-bottom: -10px;
 }

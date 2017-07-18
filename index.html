@@ -17,6 +17,8 @@
 
   <link href="style.css" rel="stylesheet">
   <link href="navbar.css" rel="stylesheet">
+  <link href="mobile.css" rel="stylesheet">
+
 
   <script>document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
@@ -104,9 +106,20 @@
       </div><!-- End skills row -->
     </div><!-- End Station info column -->
     <div class="col-md-6 col-md-pull-6 no-overflow"><!--Station image -->
-      <div class="screenshot">
+<!--       <div class="screenshot">
         <img class="img-responsive" src="images/station-1.png">
-      </div>
+          </div> -->
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/station-1.png" alt="...">
+          </div>
+          <div class="item">
+            <img src="images/station-2.png" alt="...">
+          </div>
+        </div>
+      </div> <!-- Carousel -->
     </div><!--End station image -->
   </div><!-- end container -->
 
@@ -114,7 +127,7 @@
 
 <div class="app-holder chatmunk"><!-- Chatmunk -->
   <div class="container">
-      <div class="col-sm-6"><!-- Chatmunk info column -->
+      <div class="col-md-6"><!-- Chatmunk info column -->
       <h1 class='app-title chatmunk-title'>Chatmunk</h1>
       <p class='chatmunk-text'>As a fun and easy way to chat topic-centered groups, Chatmunk was a rebirth of the classic AOL chat room. (Discontinued) </p>
 
@@ -146,7 +159,7 @@
       </div><!-- End skills row -->
     </div><!-- End Station info column -->
 
-    <div class="col-sm-6 no-overflow"><!-- image container -->
+    <div class="col-md-6 no-overflow"><!-- image container -->
       <div class="screenshot">
         <img class="img-responsive" src="images/chatmunk-1.png">
       </div>
@@ -158,7 +171,7 @@
 
 <div class="app-holder zoomly"><!-- Start zoomly -->
   <div class="container">
-    <div class="col-sm-6 col-sm-push-6"><!-- Zoomly info column -->
+    <div class="col-md-6 col-md-push-6"><!-- Zoomly info column -->
       <h1 class='app-title zoomly-title'>ZOOMLY</h1>
       <p class='zoomly-text'>Create hilarious dramatic zooms with Zoomly. All you have to do is zoom in on the part of the image that you want magnified, and Zoomly will do the rest. </p>
        <div class='row app-store-container'><!-- Download from app store row -->
@@ -191,7 +204,7 @@
         </div><!-- End skill 3 -->
       </div><!-- End skills row -->
     </div><!-- End Zoomly info column -->
-    <div class="col-sm-6 col-sm-pull-6 no-overflow"><!-- Zoomly Image -->
+    <div class="col-md-6 col-md-pull-6 no-overflow"><!-- Zoomly Image -->
       <div class="screenshot zoomly-screenshot">
         <img class="img-responsive" src="images/zoomly-1.png">
       </div>
@@ -203,7 +216,7 @@
   <div class="row">
   <div class="col-md-8 greeting">
     <h2 class="greeting-heading">Hey, I'm Gabe Roeloffs</h2>
-    <p>I'll be attending Cal Poly this fall to study computer science and I couldn't be more excited. Besides software development, my favorite activities include surfing, tennis, and eating probably a little too much Doc Burnstein's ice cream. If you happen to be looking for an iOS developer, I'd love to work with you.</p>
+    <p>I've been developing iOS apps for over three years and am currently studying computer science at Cal Poly. Besides software development, my favorite activities include surfing and playing tennis. If you happen to be looking for an iOS developer with extensive Swift experience, I'd love to work with you.</p>
     <h3 class="contact blue"><i class="fa fa-envelope fa-md blue"></i><a href="mailto:gdroel@gmail.com">&nbsp&nbspgdroel@gmail.com</h3>
     <h3 class="contact blue"><i class="fa fa-phone fa-md blue"></i>&nbsp&nbsp(805) 215-0740</h3>
 

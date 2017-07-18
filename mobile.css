@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+
+ /*   .screenshot{
+        background-color: red;
+        width: 100%;
+        margin-top: 0px;
+    }*/
+
+    .carousel{
+
+        margin: 0 auto;
+        width: 80%;
+    }
+
+}

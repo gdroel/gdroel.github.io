@@ -551,3 +551,20 @@ img{
 
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control.left{
+
+	margin-right: 100px;
+}
+.carousel{
+
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: -50px;
+}
+

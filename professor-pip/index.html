@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Pip — A new word every hour, on your lock screen</title>
+    <style>
+        :root {
+            --cream: #f5ecd9;
+            --burgundy: #6b1f2a;
+            --ink: #1a1a1a;
+            --shadow: #1a1a1a;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: 'Fraunces', 'Newsreader', Georgia, serif;
+            line-height: 1.5;
+        }
+        header, main, footer { max-width: 760px; margin: 0 auto; padding: 32px 24px; }
+        h1 { font-size: 56px; line-height: 1.05; margin: 0 0 16px; }
+        h2 { font-size: 28px; margin: 40px 0 12px; }
+        p { font-size: 18px; }
+        .tagline { font-size: 22px; color: var(--burgundy); margin: 0 0 32px; }
+        .card {
+            background: #fff;
+            border: 3px solid var(--ink);
+            border-radius: 14px;
+            padding: 24px;
+            box-shadow: 8px 8px 0 var(--shadow);
+            margin: 24px 0;
+        }
+        .features { display: grid; gap: 16px; }
+        .pill {
+            display: inline-block;
+            background: var(--burgundy);
+            color: var(--cream);
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 14px;
+            border: 2px solid var(--ink);
+        }
+        a { color: var(--burgundy); }
+        footer { border-top: 2px solid var(--ink); margin-top: 48px; font-size: 14px; }
+        .cta {
+            display: inline-block;
+            background: var(--burgundy);
+            color: var(--cream);
+            padding: 14px 28px;
+            border: 3px solid var(--ink);
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: 6px 6px 0 var(--shadow);
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="pill">iOS · Lock-screen widget</span>
+        <h1>Professor Pip</h1>
+        <p class="tagline">A new word every hour — without ever opening the app.</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <p>Stick a widget on your lock screen. Every time you check your phone, absorb a new word — definition, part of speech, and a natural example sentence. Over a week of glances, that's a few dozen new words you didn't have to study to learn.</p>
+        </div>
+
+        <h2>What's inside</h2>
+        <div class="features">
+            <div class="card">
+                <strong>1,500+ hand-picked words</strong>
+                <p>Every entry comes with a custom-written example sentence — no recycled dictionary copy.</p>
+            </div>
+            <div class="card">
+                <strong>16 curated topics</strong>
+                <p>From <em>Beautiful Words</em> and <em>Slang</em> to <em>Old Money</em> and <em>Too Fancy</em>. Follow the ones that fit your vibe.</p>
+            </div>
+            <div class="card">
+                <strong>Meet Pip</strong>
+                <p>A friendly bookworm mascot walks you through onboarding and "speaks" each example sentence in a typing-style speech bubble.</p>
+            </div>
+            <div class="card">
+                <strong>Lock-screen first</strong>
+                <p>The widget rotates a deterministic word each hour, sourced from the topics you've followed.</p>
+            </div>
+        </div>
+
+        <h2>Pricing</h2>
+        <div class="card">
+            <p><strong>Pip Annual — $59.99/year</strong> (~$5/month) with a 3-day free trial. Two topics are free forever. The other 14 unlock with a subscription.</p>
+        </div>
+
+        <h2>Get in touch</h2>
+        <div class="card">
+            <p>Questions, feedback, or a word we should add? <a href="mailto:gdroel@gmail.com">gdroel@gmail.com</a></p>
+            <a class="cta" href="/professor-pip/support.html">Support</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="/professor-pip/support.html">Support</a> ·
+            <a href="/professor-pip/privacy.html">Privacy &amp; Terms</a>
+        </p>
+        <p>&copy; 2026 Gabe Roeloffs</p>
+    </footer>
+</body>
+</html>

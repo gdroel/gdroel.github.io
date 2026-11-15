@@ -65,7 +65,6 @@
     <header class="masthead" id="top">
         <div class="shell masthead-inner">
             <a class="wordmark" href="/">Personal wiki</a>
-            <a class="masthead-link" href="/resume/">Résumé <span aria-hidden="true">↗</span></a>
         </div>
     </header>
 
@@ -112,25 +111,39 @@
         <article class="biography" aria-label="Biography">
             <section id="about">
                 <h2>Early life</h2>
-                <p>Roeloffs grew up in Arroyo Grande, a small farming town on California’s Central Coast. He credits his upbringing there with teaching him the value of hard work. When an iPad sparked his curiosity about how apps were made, he began learning iOS development at age 11.<sup><a href="#ref-gabe" aria-label="Reference 3">[3]</a> <a href="#ref-arroyo" aria-label="Reference 4">[4]</a></sup></p>
+                <p>Roeloffs grew up in Arroyo Grande, a small farming town on California’s Central Coast. He credits his upbringing there with teaching him the value of hard work and resilience. When an iPad sparked his curiosity about how apps were made, he began learning iOS development at age 11.<sup><a href="#ref-gabe" aria-label="Reference 3">[3]</a> <a href="#ref-arroyo" aria-label="Reference 4">[4]</a></sup></p>
                 <p>In his early portfolio, he listed surfing and tennis among his favorite things to do outside of software.<sup><a href="#ref-portfolio-2017" aria-label="Reference 5">[5]</a></sup></p>
+                <figure class="locator-map">
+                    <a href="/images/arroyo-grande-map.png"><img src="/images/arroyo-grande-map.png" width="900" height="850" alt="Map locating Arroyo Grande on California’s Central Coast, between San Francisco and Los Angeles" loading="lazy" decoding="async"></a>
+                    <figcaption>Arroyo Grande on California’s Central Coast. Boundaries from the <a href="https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html">U.S. Census Bureau</a> and <a href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/">Natural Earth</a>.</figcaption>
+                </figure>
             </section>
 
             <section id="early-adolescence">
                 <h2>Early adolescence and high school</h2>
-                <h3>The Bruh App</h3>
+                <h3 id="bruh">The Bruh App</h3>
                 <p>Roeloffs built his first app, <strong>Bruh</strong>, in high school. The idea was simple. Tap a friend’s name and their iPhone would say “Bruh!” It became by far the most successful of his early projects, reaching thousands of users. He recalls the experience of getting his first app into people’s hands as intoxicating. When he introduced a feature called <strong>Bae Mode</strong>, he taught himself how to implement in-app purchases.<sup><a href="#ref-gabe" aria-label="Reference 3">[3]</a></sup></p>
-                <p>In January 2015 he published a walkthrough of how he built Bruh, covering its interface, push notifications, and the Parse backend that handled friendships and blocking.<sup><a href="#ref-bruh" aria-label="Reference 6">[6]</a></sup></p>
+                <p>In January 2015 he published a walkthrough of how he built Bruh, covering its interface, push notifications, and the Parse backend that handled friendships and blocking. A preserved listing records the app in the App Store’s Social Networking category.<sup><a href="#ref-bruh" aria-label="Reference 6">[6]</a> <a href="#ref-bruh-listing" aria-label="Reference 13">[13]</a></sup></p>
+                <div class="photo-pair bruh-screenshots">
+                    <figure>
+                        <a href="/images/bruh-app-friends.png"><img src="/images/bruh-app-friends.png" width="640" height="1136" alt="The Bruh App’s blue friends list with Bruh Bomb, Block and Unfriend controls" loading="lazy" decoding="async"></a>
+                        <figcaption>The Bruh App’s friends list.</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="/images/bruh-app-super-bowl-meme.png"><img src="/images/bruh-app-super-bowl-meme.png" width="500" height="500" alt="A Pete Carroll meme showing a Bruh notification on an iPhone lock screen" loading="lazy" decoding="async"></a>
+                        <figcaption>A Super Bowl meme made with a Bruh notification.</figcaption>
+                    </figure>
+                </div>
 
                 <h3>Other teenage projects</h3>
                 <dl class="project-list">
                     <div>
                         <dt>Slack Hunts</dt>
-                        <dd>A high-school project that sent Product Hunt upvotes to a Slack channel. <span class="related"><a href="https://www.producthunt.com/products/slack-hunts?launch=slack-hunts">Product Hunt launch</a> · <a href="https://github.com/gdroel/slack-hunts">GitHub</a></span></dd>
+                        <dd>A high-school project that sent Product Hunt upvotes to a Slack channel. <span class="related"><a class="launch-link" href="https://www.producthunt.com/products/slack-hunts?launch=slack-hunts">Product Hunt <span class="launch-upvotes">142 upvotes</span></a> <a href="https://github.com/gdroel/slack-hunts">GitHub</a></span></dd>
                     </div>
                     <div>
                         <dt>Slackarma</dt>
-                        <dd>A Slack bot that let teammates give each other reputation points. Roeloffs shared it on Show HN in June 2015. <span class="related"><a href="https://www.producthunt.com/products/slack-hunts?launch=slackarma">Product Hunt launch</a> · <a href="https://news.ycombinator.com/item?id=9694166">Show HN</a> · <a href="https://github.com/gdroel/slackarma">GitHub</a></span></dd>
+                        <dd>A Slack bot that let teammates give each other reputation points. Roeloffs shared it on Show HN in June 2015. <span class="related"><a class="launch-link" href="https://www.producthunt.com/products/slack-hunts?launch=slackarma">Product Hunt <span class="launch-upvotes">7 upvotes</span></a> <a href="https://news.ycombinator.com/item?id=9694166">Show HN</a> · <a href="https://github.com/gdroel/slackarma">GitHub</a></span></dd>
                     </div>
                     <div>
                         <dt>Zoomly</dt>
@@ -138,7 +151,7 @@
                     </div>
                     <div>
                         <dt>Chatmunk</dt>
-                        <dd>A 2016 app Roeloffs helped build that brought people together in real-time chat rooms organized around shared interests, with channels and events tied to Twitter conversations. <span class="related"><a href="https://www.producthunt.com/products/chatmunk?launch=chatmunk-2">Product Hunt launch</a> · <a href="https://medium.com/@erictwillis/unbundling-twitter-introducing-chatmunk-f8171628aa4a">Launch essay</a></span></dd>
+                        <dd>A 2016 app Roeloffs helped build that brought people together in real-time chat rooms organized around shared interests, with channels and events tied to Twitter conversations. <span class="related"><a class="launch-link" href="https://www.producthunt.com/products/chatmunk?launch=chatmunk-2">Product Hunt <span class="launch-upvotes">291 upvotes</span></a> <a href="https://medium.com/@erictwillis/unbundling-twitter-introducing-chatmunk-f8171628aa4a">Launch essay</a></span></dd>
                     </div>
                     <div>
                         <dt>Station</dt>
@@ -153,9 +166,15 @@
                 <p>From 2017 to 2021, Roeloffs studied computer science at California Polytechnic State University, San Luis Obispo, where he made the President’s List and Dean’s List. He recalls often skipping class to work on personal projects. At Cal Poly he met Ryan Elliott, a computer science classmate who became a friend and later his ZeroSettle co-founder.<sup><a href="#ref-resume" aria-label="Reference 2">[2]</a> <a href="#ref-gabe" aria-label="Reference 3">[3]</a> <a href="#ref-ryan" aria-label="Reference 7">[7]</a></sup></p>
                 <h3>Internships</h3>
                 <dl class="timeline">
-                    <div>
+                    <div id="apple-internship">
                         <dt><time datetime="2019">2019</time></dt>
-                        <dd><strong>Apple.</strong> During his first internship at Apple, he <strong>won the intern AI/ML hackathon</strong> with a prototype that predicted destinations. He also built tools for diagnosing Maps Suggestions.<sup><a href="#ref-resume" aria-label="Reference 2">[2]</a></sup></dd>
+                        <dd>
+                            <strong>Apple.</strong> During his first internship at Apple, he <strong>won the intern AI/ML hackathon</strong> with a prototype that predicted destinations. He also built tools for diagnosing Maps Suggestions.<sup><a href="#ref-resume" aria-label="Reference 2">[2]</a></sup>
+                            <figure class="internship-trophy">
+                                <a href="/images/apple-intern-hackathon-trophy.jpg"><img src="/images/apple-intern-hackathon-trophy.jpg" width="1050" height="1400" alt="Gold trophy with a Machine Learning Platform &amp; Technologies Hackathon Winner plaque" loading="lazy" decoding="async"></a>
+                                <figcaption>The trophy from Apple’s 2019 intern AI/ML hackathon.</figcaption>
+                            </figure>
+                        </dd>
                     </div>
                     <div>
                         <dt><time datetime="2020">2020</time></dt>
@@ -241,7 +260,7 @@
                 <h2>References</h2>
                 <ol class="references">
                     <li id="ref-yc"><a href="https://www.ycombinator.com/companies/zerosettle">ZeroSettle company profile</a>, Y Combinator.</li>
-                    <li id="ref-resume"><a href="/resume/">Gabe Roeloffs’s résumé</a>.</li>
+                    <li id="ref-resume">Gabe Roeloffs’s résumé.</li>
                     <li id="ref-gabe">Gabe Roeloffs, firsthand biographical notes and photographs, November 2026.</li>
                     <li id="ref-arroyo"><a href="https://www.arroyogrande.org/DocumentCenter/View/1389/Historic-Context-Statement">Historic Context Statement</a>, City of Arroyo Grande.</li>
                     <li id="ref-portfolio-2017"><a href="https://github.com/gdroel/gdroel.github.io/blob/ee27bf8cbc2ff507919b6c1064a113fd66d2a1b3/index.html">Archived personal portfolio</a>, 2017.</li>
@@ -252,6 +271,7 @@
                     <li id="ref-zerosettle"><a href="https://zerosettle.io/">ZeroSettle iMessage product overview</a>.</li>
                     <li id="ref-yespress"><a href="https://yespress.io/gabe-roeloffs">Gabe Roeloffs Left Apple to Rewire the App Store’s Checkout</a>, YesPress, 2026.</li>
                     <li id="ref-portfolio-2018"><a href="https://github.com/gdroel/gdroel.github.io/blob/a2e7d7dd313b97ef4dec750280778a896e5af70f/index.html">Archived project portfolio</a>.</li>
+                    <li id="ref-bruh-listing"><a href="https://bruh-app-tap-friend-send-bruh.appstor.io/">Preserved App Store listing for The Bruh App</a>, AppStorio.</li>
                 </ol>
             </section>
         </article>

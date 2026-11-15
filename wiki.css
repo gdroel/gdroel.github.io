@@ -158,6 +158,11 @@ sup a { white-space: nowrap; }
 .biography section:last-child { margin-bottom: 0; }
 
 .biography h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .18rem 1rem;
     border-bottom: 1px solid var(--line);
     margin: 0 0 .6rem;
     padding-bottom: .26rem;
@@ -165,6 +170,15 @@ sup a { white-space: nowrap; }
     font-weight: 500;
     line-height: 1.24;
     letter-spacing: -.018em;
+}
+
+.section-years {
+    color: var(--muted);
+    font-size: .8rem;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: normal;
+    white-space: nowrap;
 }
 
 .biography h3 {
@@ -238,7 +252,21 @@ figcaption {
 }
 
 .feature-photo { width: min(100%, 44rem); margin-block: .85rem 1rem; }
-.locator-map { width: min(100%, 24rem); margin-top: .9rem; }
+.early-life-images {
+    max-width: 34rem;
+    grid-template-columns: minmax(0, 2.25fr) minmax(0, 1fr);
+    align-items: start;
+}
+.transit-feature {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 10rem);
+    gap: .7rem 1rem;
+    align-items: start;
+}
+.ipad-pro-images {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
+    align-items: start;
+}
 .bruh-screenshots { max-width: 30rem; align-items: start; }
 .internship-trophy { width: min(100%, 12rem); margin-top: .6rem; }
 
@@ -328,6 +356,8 @@ figcaption {
 }
 
 @media (max-width: 420px) {
+    .transit-feature { grid-template-columns: 1fr; }
+    .transit-feature figure { width: min(100%, 10rem); }
     .project-list > div { grid-template-columns: 1fr; gap: .12rem; }
     .reading li { grid-template-columns: 2.4rem minmax(0, 1fr); gap: .1rem .5rem; }
     .reading span { grid-column: 2; }

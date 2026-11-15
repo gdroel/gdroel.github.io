@@ -257,11 +257,9 @@ figcaption {
     grid-template-columns: minmax(0, 2.25fr) minmax(0, 1fr);
     align-items: start;
 }
-.transit-feature {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 10rem);
-    gap: .7rem 1rem;
-    align-items: start;
+.transit-illustration {
+    width: min(100%, 20rem);
+    margin: .85rem auto 1rem;
 }
 .ipad-pro-images {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
@@ -356,8 +354,6 @@ figcaption {
 }
 
 @media (max-width: 420px) {
-    .transit-feature { grid-template-columns: 1fr; }
-    .transit-feature figure { width: min(100%, 10rem); }
     .project-list > div { grid-template-columns: 1fr; gap: .12rem; }
     .reading li { grid-template-columns: 2.4rem minmax(0, 1fr); gap: .1rem .5rem; }
     .reading span { grid-column: 2; }

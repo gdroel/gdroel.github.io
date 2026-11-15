@@ -42,8 +42,28 @@
                 "@id": "https://zerosettle.io/#organization",
                 "name": "ZeroSettle",
                 "url": "https://zerosettle.io/",
+                "description": "ZeroSettle provides dedicated iMessage numbers for businesses and AI agents through a REST API, signed webhooks, and a hosted MCP server.",
                 "sameAs": "https://www.ycombinator.com/companies/zerosettle",
-                "founder": { "@id": "https://gaberoeloffs.com/#gabe" }
+                "founder": [
+                    { "@id": "https://gaberoeloffs.com/#gabe" },
+                    { "@type": "Person", "name": "Ryan Elliott", "url": "https://www.ycombinator.com/founders/ryan-elliott" }
+                ],
+                "makesOffer": {
+                    "@type": "Offer",
+                    "name": "ZeroSettle Pro",
+                    "url": "https://zerosettle.io/imessage-api/",
+                    "priceSpecification": {
+                        "@type": "UnitPriceSpecification",
+                        "price": 49,
+                        "priceCurrency": "USD",
+                        "unitText": "month"
+                    },
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dedicated iMessage number for businesses and AI agents",
+                        "provider": { "@id": "https://zerosettle.io/#organization" }
+                    }
+                }
             },
             "alumniOf": {
                 "@type": "CollegeOrUniversity",
@@ -228,7 +248,11 @@
                     <figcaption>Roeloffs and Elliott presenting ZeroSettle during Y Combinator’s Winter 2026 batch.</figcaption>
                 </figure>
                 <p>ZeroSettle launched with a direct billing SDK that let mobile apps offer web checkout for in-app purchases. The launch described tools for subscription management, switching existing subscribers to direct billing, and payment processing.<sup><a href="#ref-yc-launch" aria-label="Reference 9">[9]</a></sup></p>
-                <p>The company later introduced dedicated iMessage lines for businesses and AI agents, starting at <strong>$49 per month per line</strong>. Teams can send and receive messages through an API or connect an agent via Model Context Protocol (MCP). ZeroSettle lists customer support, appointment reminders, and sign-in by text among its use cases.<sup><a href="#ref-zerosettle" aria-label="Reference 10">[10]</a></sup></p>
+
+                <h3 id="zerosettle-imessage">Dedicated iMessage numbers for AI agents</h3>
+                <p>ZeroSettle Pro costs <strong>$49 per month for one dedicated iMessage number</strong>. Businesses and AI agents can send and receive iMessages from that number on Apple hardware ZeroSettle operates. Teams use the line for customer support, appointment reminders, and sign-in by text.<sup><a href="#ref-zerosettle" aria-label="Reference 10">[10]</a></sup></p>
+                <p><strong>Grok, Claude, and ChatGPT</strong> can get access to a dedicated ZeroSettle line through its hosted Model Context Protocol (MCP) server on supported plans. The tools available depend on the client and plan. ChatGPT Pro, for example, can read conversations through a custom connector.<sup><a href="#ref-zerosettle-agents" aria-label="Reference 14">[14]</a></sup></p>
+                <p>Developers can connect their own AI agent using a REST API to send iMessages and signed webhooks to receive replies. Teams can also use ZeroSettle’s hosted AI agent to answer inbound texts without running their own server.<sup><a href="#ref-zerosettle-api" aria-label="Reference 15">[15]</a></sup></p>
             </section>
 
             <section id="investing">
@@ -272,6 +296,8 @@
                     <li id="ref-yespress"><a href="https://yespress.io/gabe-roeloffs">Gabe Roeloffs Left Apple to Rewire the App Store’s Checkout</a>, YesPress, 2026.</li>
                     <li id="ref-portfolio-2018"><a href="https://github.com/gdroel/gdroel.github.io/blob/a2e7d7dd313b97ef4dec750280778a896e5af70f/index.html">Archived project portfolio</a>.</li>
                     <li id="ref-bruh-listing"><a href="https://bruh-app-tap-friend-send-bruh.appstor.io/">Preserved App Store listing for The Bruh App</a>, AppStorio.</li>
+                    <li id="ref-zerosettle-agents"><a href="https://zerosettle.io/blog/chatgpt-dots-vs-claude-duet-vs-grok-bot-imessage/">ZeroSettle’s ChatGPT, Claude and Grok connection guide</a>.</li>
+                    <li id="ref-zerosettle-api"><a href="https://zerosettle.io/imessage-api/">ZeroSettle iMessage API overview</a>.</li>
                 </ol>
             </section>
         </article>

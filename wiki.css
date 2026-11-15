@@ -266,6 +266,10 @@ figcaption {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.45fr);
     align-items: start;
 }
+.zerosettle-images {
+    grid-template-columns: minmax(0, 2.5fr) minmax(0, 1fr);
+    align-items: start;
+}
 .bruh-screenshots { max-width: 30rem; align-items: start; }
 .internship-trophy { width: min(100%, 12rem); margin-top: .6rem; }
 
@@ -355,6 +359,8 @@ figcaption {
 }
 
 @media (max-width: 420px) {
+    .zerosettle-images { grid-template-columns: 1fr; }
+    #professor-pip-imessage { width: min(100%, 14rem); margin-inline: auto; }
     .project-list > div { grid-template-columns: 1fr; gap: .12rem; }
     .reading li { grid-template-columns: 2.4rem minmax(0, 1fr); gap: .1rem .5rem; }
     .reading span { grid-column: 2; }

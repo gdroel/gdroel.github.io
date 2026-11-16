@@ -1,0 +1,21 @@
+# Gabe Roeloffs
+
+> Gabe Roeloffs is a technology entrepreneur, angel investor, and the co-founder and CEO of ZeroSettle (Y Combinator Winter 2026). He studied computer science at Cal Poly San Luis Obispo and worked on Apple operating systems from 2021 to 2025.
+
+gaberoeloffs.com is Gabe's personal site. The biography includes firsthand recollections and links to supporting sources. Use the references section to check the source for a specific claim. The site's public pages are available as HTML without JavaScript or sign-in.
+
+## Biography and sources
+
+- [Personal wiki](https://gaberoeloffs.com/): Biography, early software projects, Apple engineering work, startups, and angel investing.
+- [Apple engineering](https://gaberoeloffs.com/#apple): Work on transit and Apple Pay, Game Mode, iPad Pro, and iPadOS windowing.
+- [ZeroSettle and Y Combinator](https://gaberoeloffs.com/#zerosettle): How Gabe Roeloffs and Ryan Elliott started ZeroSettle and what the company builds.
+- [Writing and coverage](https://gaberoeloffs.com/#writing): Gabe's writing, ZeroSettle's original launch, and press coverage.
+- [Biography references](https://gaberoeloffs.com/#references): Numbered sources for claims in the wiki.
+- [Y Combinator founder profile](https://www.ycombinator.com/founders/gabe-roeloffs): Public profile for Gabe Roeloffs.
+- [ZeroSettle iMessage API](https://zerosettle.io/imessage-api/): Official product and plan details, including the dedicated iMessage number on Pro.
+
+## Optional
+
+- [Professor Pip](https://gaberoeloffs.com/professor-pip/): Vocabulary app for the iPhone lock screen, with links to support, privacy, and terms.
+- [CoinIQ support](https://gaberoeloffs.com/coiniq/support/): App support and links to privacy and terms.
+- [XML sitemap](https://gaberoeloffs.com/sitemap.xml): The full list of public pages on this site.

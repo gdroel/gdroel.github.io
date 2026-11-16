@@ -310,6 +310,7 @@ figcaption {
     border-top: 1px solid var(--light-line);
     color: var(--muted);
     font-size: .8rem;
+    flex-wrap: wrap;
 }
 
 .footer p { margin: 0; }
